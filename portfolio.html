@@ -2,146 +2,119 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/hidden.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
     <body>
         <header>
-            <nav>
-                <a href="./index.html" lang="en"><span class="logo">Web</span>Studio</a>
-                <ul>
-                    <li><a href="">Студия</a></li>
-                    <li><a href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
+            <nav >
+                <a href="./index.html" class="logo">
+                    <span class="logo-web">Web</span><span class="logo-studio-header">Studio</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a class="link" href="./index.html">Студия</a></li>
+                    <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="link" href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
         
-            <ul>
-                <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380991111111">+38 096 111 11 11</a></li>
+            <ul class="contacts">
+                <li><a class="contact" href="mailto:info@example.com">info@devstudio.com</a></li>
+                <li><a class="contact" href="tel:+380991111111">+38 096 111 11 11</a></li>
             </ul>
         </header>
         
         <main>
-            <!--Фильтр наших работ-->
+            <!--Фильтр наших работ - кнопки-->
             <section>
-             <!-- <h1></h1>-->
-                <ul>
-                <li> 
-                    <button type="button">Все</button>
-                </li>
-
-                <li>
-                    <button type="button">Веб-сайты</button>
-                </li>
-            
-                <li>
-                    <button type="button">Приложения</button>
-                </li>
-
-                <li>
-                    <button type="button">Дизайн</button>
-                </li>
-
-                <li>
-                    <button type="button">Маркетинг</button>
-                </li>
+             <h1 class="visually-hidden main-title">Фильтр наших работ</h1>
+                <ul class="filter-buttons">
+                    <li><button class="btn" type="">Все</button> </li>
+                    <li><button class="btn" type="">Веб-сайты</button></li>
+                    <li><button class="btn" type="">Приложения</button></li>
+                    <li><button class="btn" type="">Дизайн</button></li>
+                    <li><button class="btn" type="">Маркетинг</button></li>
               </ul>
+              
             </section>
 
                 <!-- Наши работы-->
             <section>   
-                <!-- <h2></h2>-->
-                <ul>
-                <li>
-                    <a href="">
-                    <img src="./images/our-works-1.jpg" width="370" height="294" alt="Наши веб-сайты">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                    </a> 
-                </li>
+                <h2 class="visually-hidden">Наши работы</h2>
+                <ul class="projects">
+                    <li>
+                         <img src="./images/our-works-1.jpg" width="370" alt="Наши веб-сайты">
+                         <h3 class="project">Технокряк</h3>
+                          <p class="project-info">Веб-сайт</p>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <img src="./images/our-works-2.jpg" width="370" height="294" alt="Наши дизайнерские решения"> 
-                        <h3>Постер New Orlean vs Golden Star</h3>
-                        <p>Дизайн</p>
-                    </a>
-                </li>
+                    <li>
+                       <img src="./images/our-works-2.jpg" width="370" alt="Наши дизайнерские решения"> 
+                        <h3 class="project">Постер New Orlean vs Golden Star</h3>
+                        <p class="project-info">Дизайн</p>
+                     </li>
 
-                <li>
-                   <a href="">
-                       <img src="./images/our-works-3.jpg" width="370" height="294" alt="Наши приложения"> 
-                       <h3>Ресторан Seafood</h3>
-                       <p>Приложение</p>
-                    </a>
-                </li>
+                    <li>
+                       <img src="./images/our-works-3.jpg" width="370" alt="Наши приложения"> 
+                       <h3 class="project">Ресторан Seafood</h3>
+                       <p class="project-info">Приложение</p>
+                      </li>
 
-                <li>
-                    <a href="">
+                     <li>
                         <!--С альтом вопрос. Непонятно, что писать в данном случае-->
-                        <img src="./images/our-works-4.jpg" width="370" height="294" alt="Маркетинг">
-                        <h3>Проект Prime</h3>
-                        <p>Маркетинг</p>
-                    </a>
-                </li>
+                        <img src="./images/our-works-4.jpg" width="370" alt="Маркетинг">
+                        <h3 class="project">Проект Prime</h3>
+                        <p class="project-info">Маркетинг</p>
+                      </li>
 
-                <li>
-                    <a href="">
-                        <img src="./images/our-works-5.jpg" width="370" height="294" alt="Наши приложения">
-                        <h3>Проект Boxes</h3>
-                        <p>Приложение</p>
-                    </a>
-                </li>
+                      <li>
+                        <img src="./images/our-works-5.jpg" width="370" alt="Наши приложения">
+                        <h3 class="project">Проект Boxes</h3>
+                        <p class="project-info">Приложение</p>
+                     </li>
                 
-                <li>
-                    <a href="">
-                        <img src="./images/our-works-6.jpg" width="370" height="294" alt="Наши веб-сайты">
-                        <h3>Inspiration has no Borders</h3>
-                        <p>Веб-сайт</p>
-                    </a>
-                </li>
+                      <li>
+                        <img src="./images/our-works-6.jpg" width="370" alt="Наши веб-сайты">
+                        <h3 class="project">Inspiration has no Borders</h3>
+                        <p class="project-info">Веб-сайт</p>
+                     </li>
                     
-                <li>
-                    <a href="">
-                        <img src="./images/our-works-7.jpg" width="370" height="294" alt="Наши дизайнерские решения">
-                        <h3>Издание Limited Edition</h3>
-                        <p>Дизайн</p>    
-                    </a>
+                     <li>
+                        <img src="./images/our-works-7.jpg" width="370" alt="Наши дизайнерские решения">
+                        <h3 class="project">Издание Limited Edition</h3>
+                        <p class="project-info">Дизайн</p>    
 
-                </li>
+                     </li>
                 
-                <li>
-                    <a href="">
-                        <img src="./images/our-works-8.jpg" width="370" height="294" alt="Маркетинг">
-                        <h3>Проект LAB</h3>
-                        <p>Маркетинг</p>
-                    </a>
-                </li>
+                     <li>
+                        <img src="./images/our-works-8.jpg" width="370" alt="Маркетинг">
+                        <h3 class="project">Проект LAB</h3>
+                        <p class="project-info">Маркетинг</p>
+                     </li>
                 
-                <li>
-                    <a href="">
+                     <li>
                         <img src="./images/our-works-9.jpg" alt="Наши приложения">
-                        <h3>Growing Business</h3>
-                        <p>Приложение</p>
-                    </a>
-                </li>
+                        <h3 class="project">Growing Business</h3>
+                        <p class="project-info">Приложение</p>
+                     </li>
                 </ul>
             </section>
         </main>
-
+        <!-- Подвал -->
         <footer>
-            <a href="" lang="en"><span class="logo">Web</span>Studio</a>
-            <address>
+            <a href="./index.html" class="logo">
+                <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
+            </a>
+            <address class="address" id="contacts">
                 г. Киев, пр-т Леси Украинки, 26 <br>
-                <a href="mailto:info@example.com">info@example.com</a><br>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="mail" href="mailto:info@example.com">info@example.com</a><br>
+                <a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
         </footer>
-
-
-
     </body>
 </html>

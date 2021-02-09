@@ -1,4 +1,166 @@
-.logo   {
-    color: blue;
+:root {
+  --title-text: #212121;
+  --main-text: #757575;
+  --nav-text: #212121;
+  --contacts-text: #757575;
+  --actions: #2196F3;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+footer {
+  background-color: #2F303A ;
+}
+
+/* Главная страница */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo-web {
+  color: #2196F3;
+}
+
+.logo-studio-header {
+  color: #000000;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.nav-links .link {
+  color: var(--nav-text, black);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: var(--actions, blue);
+}
+
+.contacts .contact {
+  color: var(--contacts-text, grey) ;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contacts .contact:hover,
+.contacts .contact:focus {
+  color: var(--actions, blue);
+}
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero .title {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.hero .btn {
+  color: #ffffff;
+  background-color: var(--actions, blue);
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: #ffffff;
+  color: var(--actions, blue);
+}
+
+
+.main-title {
+  color: var(--title-text, black);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.advantages .title {
+  color: var(--title-text, black);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.advantages .advantage {
+  color: var(--main-text, grey);
+  font-size: 14px;
+}
+
+.team .member {
+  color: var(--title-text, black);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.team .skill {
+  color: var(--main-text, grey);
+  font-size: 16px;
+}
+
+.address {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.address .mail,
+.address .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .mail:hover,
+.address .mail:focus,
+.address .tel:hover,
+.address .tel:focus{
+  color: var(--actions, blue);
+}
+
+/* Старница портфолио */
+
+.filter-buttons .btn {
+  background-color: #F5F4FA;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+}  
+
+.filter-buttons .btn:hover {
+  background-color: var(--actions, blue);
+  color: #ffffff;
+}
+ 
+.projects .project {
+  color: var(--title-text);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.projects .project-info {
+  color: var(--main-text);
+  font-size: 16px;
+}
