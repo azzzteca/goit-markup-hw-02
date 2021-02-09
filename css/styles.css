@@ -33,6 +33,7 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .logo-web {
@@ -51,6 +52,7 @@ footer {
   color: var(--nav-text, black);
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .nav-links .link:hover,
@@ -66,6 +68,7 @@ footer {
   color: var(--contacts-text, grey) ;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .contacts .contact:hover,
@@ -83,11 +86,15 @@ footer {
   text-align: center;
   font-size: 44px;
   font-weight: 700;
+  line-height: 1.4;
 }
 
 .hero .btn {
   color: #ffffff;
   background-color: var(--actions, blue);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
 }
 
 .hero .btn:hover,
@@ -101,6 +108,7 @@ footer {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .advantages .title {
@@ -108,27 +116,35 @@ footer {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .advantages .advantage {
   color: var(--main-text, grey);
   font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 .team .member {
   color: var(--title-text, black);
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .team .skill {
   color: var(--main-text, grey);
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .address {
   color: #ffffff;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 .address .mail,
@@ -151,6 +167,7 @@ footer {
   color: #212121;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.6;
 }  
 
 .filter-buttons .btn:hover,
@@ -163,9 +180,12 @@ footer {
   color: var(--title-text);
   font-size: 18px;
   font-weight: 700;
+  line-height: 2.0;
 }
 
 .projects .project-info {
   color: var(--main-text);
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9;
 }
