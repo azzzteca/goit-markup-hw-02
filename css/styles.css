@@ -16,10 +16,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 address {
   font-style: normal;
 }
@@ -34,6 +30,7 @@ footer {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -53,6 +50,7 @@ footer {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .nav-links .link:hover,
@@ -69,6 +67,7 @@ footer {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .contacts .contact:hover,
@@ -150,6 +149,7 @@ footer {
 .address .mail,
 .address .tel {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .address .mail:hover,
