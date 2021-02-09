@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #E5E5E5;
+  background-color: #ffffff;
 }
 
 ul {
@@ -56,6 +56,10 @@ footer {
 .nav-links .link:hover,
 .nav-links .link:focus {
   color: var(--actions, blue);
+}
+
+.nav-links .link:active {
+  color: red;
 }
 
 .contacts .contact {
