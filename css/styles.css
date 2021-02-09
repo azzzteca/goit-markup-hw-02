@@ -92,7 +92,6 @@ footer {
   color: var(--actions, blue);
 }
 
-
 .main-title {
   color: var(--title-text, black);
   text-align: center;
@@ -150,7 +149,8 @@ footer {
   font-weight: 500;
 }  
 
-.filter-buttons .btn:hover {
+.filter-buttons .btn:hover,
+.filter-buttons .btn:focus {
   background-color: var(--actions, blue);
   color: #ffffff;
 }
