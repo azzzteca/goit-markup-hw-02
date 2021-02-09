@@ -58,8 +58,8 @@ footer {
   color: var(--actions, blue);
 }
 
-.nav-links .link:active {
-  color: red;
+.nav-links .link.current {
+  color: var(--actions, blue);
 }
 
 .contacts .contact {
