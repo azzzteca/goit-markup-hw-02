@@ -5,6 +5,8 @@
   --nav-text: #212121;
   --contacts-text: #757575;
   --actions: #2196F3;
+  --buttons-background:#F5F4FA ;
+
 }
 
 body {
@@ -84,11 +86,12 @@ footer {
   text-transform: uppercase;
   text-align: center;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.4;
 }
 
 .hero .btn {
+  font-family: inherit;
   color: #ffffff;
   background-color: var(--actions, blue);
   font-size: 16px;
@@ -162,9 +165,10 @@ footer {
 /* Старница портфолио */
 
 .filter-buttons .btn {
-  background-color: #F5F4FA;
+  background-color: var(--buttons-background, #ffffff);
+  font-family: inherit;
   border: none;
-  color: #212121;
+  color: var(--nav-text, #000000);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
